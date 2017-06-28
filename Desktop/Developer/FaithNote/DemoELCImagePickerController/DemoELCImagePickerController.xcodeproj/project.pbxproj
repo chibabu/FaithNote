@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3CA60C21DED683100C82DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60C11DED683100C82DA4 /* AppDelegate.swift */; };
+		A3CA60C41DED683100C82DA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60C31DED683100C82DA4 /* ViewController.swift */; };
+		A3CA60C71DED683100C82DA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60C51DED683100C82DA4 /* Main.storyboard */; };
+		A3CA60C91DED683100C82DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60C81DED683100C82DA4 /* Assets.xcassets */; };
+		A3CA60CC1DED683100C82DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60CA1DED683100C82DA4 /* LaunchScreen.storyboard */; };
+		A3CA60F01DED685B00C82DA4 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60D61DED685B00C82DA4 /* ELCAlbumPickerController.m */; };
+		A3CA60F11DED685B00C82DA4 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60D81DED685B00C82DA4 /* ELCAsset.m */; };
+		A3CA60F21DED685B00C82DA4 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60DA1DED685B00C82DA4 /* ELCAssetCell.m */; };
+		A3CA60F31DED685B00C82DA4 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60DE1DED685B00C82DA4 /* ELCAssetTablePicker.m */; };
+		A3CA60F41DED685B00C82DA4 /* ELCConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60E01DED685B00C82DA4 /* ELCConsole.m */; };
+		A3CA60F51DED685B00C82DA4 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60E21DED685B00C82DA4 /* ELCImagePickerController.m */; };
+		A3CA60F61DED685B00C82DA4 /* ELCOverlayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60E51DED685B00C82DA4 /* ELCOverlayImageView.m */; };
+		A3CA60F71DED685B00C82DA4 /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60E71DED685B00C82DA4 /* ELCAlbumPickerController.xib */; };
+		A3CA60F81DED685B00C82DA4 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60E81DED685B00C82DA4 /* ELCAssetPicker.xib */; };
+		A3CA60F91DED685B00C82DA4 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60E91DED685B00C82DA4 /* ELCAssetTablePicker.xib */; };
+		A3CA60FA1DED685B00C82DA4 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60EA1DED685B00C82DA4 /* Overlay.png */; };
+		A3CA60FB1DED685B00C82DA4 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3CA60EB1DED685B00C82DA4 /* Overlay@2x.png */; };
+		A3CA60FC1DED685B00C82DA4 /* ELCImagePickerDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60ED1DED685B00C82DA4 /* ELCImagePickerDemoAppDelegate.m */; };
+		A3CA60FD1DED685B00C82DA4 /* ELCImagePickerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA60EF1DED685B00C82DA4 /* ELCImagePickerDemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3CA60BE1DED683100C82DA4 /* DemoELCImagePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoELCImagePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CA60C11DED683100C82DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3CA60C31DED683100C82DA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3CA60C61DED683100C82DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3CA60C81DED683100C82DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3CA60CB1DED683100C82DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3CA60CD1DED683100C82DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CA60D51DED685B00C82DA4 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		A3CA60D61DED685B00C82DA4 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		A3CA60D71DED685B00C82DA4 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		A3CA60D81DED685B00C82DA4 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		A3CA60D91DED685B00C82DA4 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		A3CA60DA1DED685B00C82DA4 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		A3CA60DB1DED685B00C82DA4 /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		A3CA60DC1DED685B00C82DA4 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		A3CA60DD1DED685B00C82DA4 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		A3CA60DE1DED685B00C82DA4 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		A3CA60DF1DED685B00C82DA4 /* ELCConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCConsole.h; sourceTree = "<group>"; };
+		A3CA60E01DED685B00C82DA4 /* ELCConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCConsole.m; sourceTree = "<group>"; };
+		A3CA60E11DED685B00C82DA4 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		A3CA60E21DED685B00C82DA4 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		A3CA60E31DED685B00C82DA4 /* ELCImagePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerHeader.h; sourceTree = "<group>"; };
+		A3CA60E41DED685B00C82DA4 /* ELCOverlayImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCOverlayImageView.h; sourceTree = "<group>"; };
+		A3CA60E51DED685B00C82DA4 /* ELCOverlayImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCOverlayImageView.m; sourceTree = "<group>"; };
+		A3CA60E71DED685B00C82DA4 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		A3CA60E81DED685B00C82DA4 /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		A3CA60E91DED685B00C82DA4 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		A3CA60EA1DED685B00C82DA4 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		A3CA60EB1DED685B00C82DA4 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		A3CA60EC1DED685B00C82DA4 /* ELCImagePickerDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerDemoAppDelegate.h; sourceTree = "<group>"; };
+		A3CA60ED1DED685B00C82DA4 /* ELCImagePickerDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerDemoAppDelegate.m; sourceTree = "<group>"; };
+		A3CA60EE1DED685B00C82DA4 /* ELCImagePickerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerDemoViewController.h; sourceTree = "<group>"; };
+		A3CA60EF1DED685B00C82DA4 /* ELCImagePickerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerDemoViewController.m; sourceTree = "<group>"; };
+		A3CA60FE1DED68B400C82DA4 /* DemoELCImagePickerController-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DemoELCImagePickerController-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CA60BB1DED683100C82DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3CA60B51DED683100C82DA4 = {
+			isa = PBXGroup;
+			children = (
+				A3CA60FE1DED68B400C82DA4 /* DemoELCImagePickerController-Bridging-Header.h */,
+				A3CA60C01DED683100C82DA4 /* DemoELCImagePickerController */,
+				A3CA60BF1DED683100C82DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CA60BF1DED683100C82DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA60BE1DED683100C82DA4 /* DemoELCImagePickerController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CA60C01DED683100C82DA4 /* DemoELCImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA60D31DED685B00C82DA4 /* Classes */,
+				A3CA60C11DED683100C82DA4 /* AppDelegate.swift */,
+				A3CA60C31DED683100C82DA4 /* ViewController.swift */,
+				A3CA60C51DED683100C82DA4 /* Main.storyboard */,
+				A3CA60C81DED683100C82DA4 /* Assets.xcassets */,
+				A3CA60CA1DED683100C82DA4 /* LaunchScreen.storyboard */,
+				A3CA60CD1DED683100C82DA4 /* Info.plist */,
+			);
+			path = DemoELCImagePickerController;
+			sourceTree = "<group>";
+		};
+		A3CA60D31DED685B00C82DA4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA60D41DED685B00C82DA4 /* ELCImagePicker */,
+				A3CA60EC1DED685B00C82DA4 /* ELCImagePickerDemoAppDelegate.h */,
+				A3CA60ED1DED685B00C82DA4 /* ELCImagePickerDemoAppDelegate.m */,
+				A3CA60EE1DED685B00C82DA4 /* ELCImagePickerDemoViewController.h */,
+				A3CA60EF1DED685B00C82DA4 /* ELCImagePickerDemoViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A3CA60D41DED685B00C82DA4 /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA60D51DED685B00C82DA4 /* ELCAlbumPickerController.h */,
+				A3CA60D61DED685B00C82DA4 /* ELCAlbumPickerController.m */,
+				A3CA60D71DED685B00C82DA4 /* ELCAsset.h */,
+				A3CA60D81DED685B00C82DA4 /* ELCAsset.m */,
+				A3CA60D91DED685B00C82DA4 /* ELCAssetCell.h */,
+				A3CA60DA1DED685B00C82DA4 /* ELCAssetCell.m */,
+				A3CA60DB1DED685B00C82DA4 /* ELCAssetPickerFilterDelegate.h */,
+				A3CA60DC1DED685B00C82DA4 /* ELCAssetSelectionDelegate.h */,
+				A3CA60DD1DED685B00C82DA4 /* ELCAssetTablePicker.h */,
+				A3CA60DE1DED685B00C82DA4 /* ELCAssetTablePicker.m */,
+				A3CA60DF1DED685B00C82DA4 /* ELCConsole.h */,
+				A3CA60E01DED685B00C82DA4 /* ELCConsole.m */,
+				A3CA60E11DED685B00C82DA4 /* ELCImagePickerController.h */,
+				A3CA60E21DED685B00C82DA4 /* ELCImagePickerController.m */,
+				A3CA60E31DED685B00C82DA4 /* ELCImagePickerHeader.h */,
+				A3CA60E41DED685B00C82DA4 /* ELCOverlayImageView.h */,
+				A3CA60E51DED685B00C82DA4 /* ELCOverlayImageView.m */,
+				A3CA60E61DED685B00C82DA4 /* Resources */,
+			);
+			path = ELCImagePicker;
+			sourceTree = "<group>";
+		};
+		A3CA60E61DED685B00C82DA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A3CA60E71DED685B00C82DA4 /* ELCAlbumPickerController.xib */,
+				A3CA60E81DED685B00C82DA4 /* ELCAssetPicker.xib */,
+				A3CA60E91DED685B00C82DA4 /* ELCAssetTablePicker.xib */,
+				A3CA60EA1DED685B00C82DA4 /* Overlay.png */,
+				A3CA60EB1DED685B00C82DA4 /* Overlay@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CA60BD1DED683100C82DA4 /* DemoELCImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CA60D01DED683100C82DA4 /* Build configuration list for PBXNativeTarget "DemoELCImagePickerController" */;
+			buildPhases = (
+				A3CA60BA1DED683100C82DA4 /* Sources */,
+				A3CA60BB1DED683100C82DA4 /* Frameworks */,
+				A3CA60BC1DED683100C82DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoELCImagePickerController;
+			productName = DemoELCImagePickerController;
+			productReference = A3CA60BE1DED683100C82DA4 /* DemoELCImagePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CA60B61DED683100C82DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hasya Panchasara";
+				TargetAttributes = {
+					A3CA60BD1DED683100C82DA4 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = A3CA60B91DED683100C82DA4 /* Build configuration list for PBXProject "DemoELCImagePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3CA60B51DED683100C82DA4;
+			productRefGroup = A3CA60BF1DED683100C82DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CA60BD1DED683100C82DA4 /* DemoELCImagePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CA60BC1DED683100C82DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CA60F91DED685B00C82DA4 /* ELCAssetTablePicker.xib in Resources */,
+				A3CA60F71DED685B00C82DA4 /* ELCAlbumPickerController.xib in Resources */,
+				A3CA60FA1DED685B00C82DA4 /* Overlay.png in Resources */,
+				A3CA60CC1DED683100C82DA4 /* LaunchScreen.storyboard in Resources */,
+				A3CA60C91DED683100C82DA4 /* Assets.xcassets in Resources */,
+				A3CA60FB1DED685B00C82DA4 /* Overlay@2x.png in Resources */,
+				A3CA60C71DED683100C82DA4 /* Main.storyboard in Resources */,
+				A3CA60F81DED685B00C82DA4 /* ELCAssetPicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CA60BA1DED683100C82DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CA60FC1DED685B00C82DA4 /* ELCImagePickerDemoAppDelegate.m in Sources */,
+				A3CA60F21DED685B00C82DA4 /* ELCAssetCell.m in Sources */,
+				A3CA60C41DED683100C82DA4 /* ViewController.swift in Sources */,
+				A3CA60F41DED685B00C82DA4 /* ELCConsole.m in Sources */,
+				A3CA60F11DED685B00C82DA4 /* ELCAsset.m in Sources */,
+				A3CA60C21DED683100C82DA4 /* AppDelegate.swift in Sources */,
+				A3CA60F31DED685B00C82DA4 /* ELCAssetTablePicker.m in Sources */,
+				A3CA60FD1DED685B00C82DA4 /* ELCImagePickerDemoViewController.m in Sources */,
+				A3CA60F51DED685B00C82DA4 /* ELCImagePickerController.m in Sources */,
+				A3CA60F61DED685B00C82DA4 /* ELCOverlayImageView.m in Sources */,
+				A3CA60F01DED685B00C82DA4 /* ELCAlbumPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3CA60C51DED683100C82DA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CA60C61DED683100C82DA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3CA60CA1DED683100C82DA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CA60CB1DED683100C82DA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3CA60CE1DED683100C82DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoELCImagePickerController-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3CA60CF1DED683100C82DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoELCImagePickerController-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3CA60D11DED683100C82DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = DemoELCImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hp.DemoELCImagePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoELCImagePickerController-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3CA60D21DED683100C82DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = DemoELCImagePickerController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hp.DemoELCImagePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoELCImagePickerController-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CA60B91DED683100C82DA4 /* Build configuration list for PBXProject "DemoELCImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CA60CE1DED683100C82DA4 /* Debug */,
+				A3CA60CF1DED683100C82DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CA60D01DED683100C82DA4 /* Build configuration list for PBXNativeTarget "DemoELCImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CA60D11DED683100C82DA4 /* Debug */,
+				A3CA60D21DED683100C82DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CA60B61DED683100C82DA4 /* Project object */;
+}

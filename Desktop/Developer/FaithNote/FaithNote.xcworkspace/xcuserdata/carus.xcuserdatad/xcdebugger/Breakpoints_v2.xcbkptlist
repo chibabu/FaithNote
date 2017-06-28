@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FaithNote/CustomAccessoryView.swift"
+            timestampString = "517682998.071428"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CustomAccessoryView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FaithNote.CustomAccessoryView.quitButton.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "FaithNote"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carus/Desktop/Developer/FaithNote/FaithNote/CustomAccessoryView.swift"
+                  timestampString = "517682998.094632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FaithNote.CustomAccessoryView.quitButton.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "FaithNote"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carus/Desktop/Developer/FaithNote/FaithNote/CustomAccessoryView.swift"
+                  timestampString = "517682998.097158"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FaithNote.CustomAccessoryView.init (frame : __C.CGRect) -&gt; FaithNote.CustomAccessoryView"
+                  moduleName = "FaithNote"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carus/Desktop/Developer/FaithNote/FaithNote/CustomAccessoryView.swift"
+                  timestampString = "517682998.099494"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FaithNote.CustomAccessoryView.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FaithNote.CustomAccessoryView&gt;"
+                  moduleName = "FaithNote"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carus/Desktop/Developer/FaithNote/FaithNote/CustomAccessoryView.swift"
+                  timestampString = "517682998.102054"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FaithNote/writeView.swift"
+            timestampString = "520339376.618452"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "toolBarImage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

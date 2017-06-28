@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035A0299DE052DB4BD6B860B /* Pods_FaithNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECA19344A9A4728D9C34D69 /* Pods_FaithNote.framework */; };
+		6D1614A21F01557B00B8DA49 /* writeViewBackup_oranized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1614A11F01557B00B8DA49 /* writeViewBackup_oranized.swift */; };
+		6D2753D71EF9116D00A0D13C /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2753D61EF9116D00A0D13C /* mainCell.swift */; };
+		6D2753D91EF9123600A0D13C /* writeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2753D81EF9123600A0D13C /* writeCell.swift */; };
+		6D2753E21EFED98200A0D13C /* writeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2753E11EFED98200A0D13C /* writeImageView.swift */; };
+		6D2753E41F00F0D300A0D13C /* writeViewBackUP_beforeChangeUIImageArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2753E31F00F0D300A0D13C /* writeViewBackUP_beforeChangeUIImageArray.swift */; };
+		6D2753E61F00F37200A0D13C /* Function Save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2753E51F00F37200A0D13C /* Function Save.swift */; };
+		6D2F53561EBEB3C400C8FB3F /* writeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2F53551EBEB3C400C8FB3F /* writeView.swift */; };
+		6D3062871EEC289800B828A9 /* supporting File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3062861EEC289800B828A9 /* supporting File.swift */; };
+		6DE45C1E1EBE112B00562631 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE45C1D1EBE112B00562631 /* AppDelegate.swift */; };
+		6DE45C201EBE112B00562631 /* mainLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE45C1F1EBE112B00562631 /* mainLogo.swift */; };
+		6DE45C231EBE112B00562631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE45C211EBE112B00562631 /* Main.storyboard */; };
+		6DE45C251EBE112B00562631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE45C241EBE112B00562631 /* Assets.xcassets */; };
+		6DE45C281EBE112C00562631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE45C261EBE112C00562631 /* LaunchScreen.storyboard */; };
+		6DE45C341EBE167F00562631 /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE45C331EBE167F00562631 /* mainView.swift */; };
+		6DEBDDD21EEE8674003677BA /* backupFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEBDDD11EEE8674003677BA /* backupFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D77BA2E6132D6A253CE33EA /* Pods-FaithNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaithNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaithNote/Pods-FaithNote.debug.xcconfig"; sourceTree = "<group>"; };
+		4D66444DE54CA0D1E788B4D0 /* Pods-FaithNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaithNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaithNote/Pods-FaithNote.release.xcconfig"; sourceTree = "<group>"; };
+		6D1614A11F01557B00B8DA49 /* writeViewBackup_oranized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writeViewBackup_oranized.swift; sourceTree = "<group>"; };
+		6D2753D61EF9116D00A0D13C /* mainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
+		6D2753D81EF9123600A0D13C /* writeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writeCell.swift; sourceTree = "<group>"; };
+		6D2753E11EFED98200A0D13C /* writeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writeImageView.swift; sourceTree = "<group>"; };
+		6D2753E31F00F0D300A0D13C /* writeViewBackUP_beforeChangeUIImageArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writeViewBackUP_beforeChangeUIImageArray.swift; sourceTree = "<group>"; };
+		6D2753E51F00F37200A0D13C /* Function Save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Function Save.swift"; sourceTree = "<group>"; };
+		6D2F53551EBEB3C400C8FB3F /* writeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = writeView.swift; sourceTree = "<group>"; };
+		6D3062861EEC289800B828A9 /* supporting File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "supporting File.swift"; sourceTree = "<group>"; };
+		6DE45C1A1EBE112B00562631 /* FaithNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaithNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE45C1D1EBE112B00562631 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DE45C1F1EBE112B00562631 /* mainLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainLogo.swift; sourceTree = "<group>"; };
+		6DE45C221EBE112B00562631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DE45C241EBE112B00562631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DE45C271EBE112C00562631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DE45C291EBE112C00562631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE45C331EBE167F00562631 /* mainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		6DEBDDD11EEE8674003677BA /* backupFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = backupFile.swift; sourceTree = "<group>"; };
+		AECA19344A9A4728D9C34D69 /* Pods_FaithNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaithNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DE45C171EBE112B00562631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035A0299DE052DB4BD6B860B /* Pods_FaithNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D3062841EEC284100B828A9 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				6DE45C1F1EBE112B00562631 /* mainLogo.swift */,
+				6DE45C331EBE167F00562631 /* mainView.swift */,
+				6D2753D61EF9116D00A0D13C /* mainCell.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		6D3062851EEC287400B828A9 /* write */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F53551EBEB3C400C8FB3F /* writeView.swift */,
+				6D2753D81EF9123600A0D13C /* writeCell.swift */,
+			);
+			name = write;
+			sourceTree = "<group>";
+		};
+		6D3062881EEC289D00B828A9 /* supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				6D3062861EEC289800B828A9 /* supporting File.swift */,
+				6DEBDDD11EEE8674003677BA /* backupFile.swift */,
+				6D2753E31F00F0D300A0D13C /* writeViewBackUP_beforeChangeUIImageArray.swift */,
+				6D1614A11F01557B00B8DA49 /* writeViewBackup_oranized.swift */,
+				6D2753E51F00F37200A0D13C /* Function Save.swift */,
+			);
+			name = "supporting File";
+			sourceTree = "<group>";
+		};
+		6DE45C111EBE112B00562631 = {
+			isa = PBXGroup;
+			children = (
+				6DE45C1C1EBE112B00562631 /* FaithNote */,
+				6DE45C1B1EBE112B00562631 /* Products */,
+				9815D157E060128A2D635C25 /* Pods */,
+				7412588C8BC1C031725DC468 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DE45C1B1EBE112B00562631 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DE45C1A1EBE112B00562631 /* FaithNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DE45C1C1EBE112B00562631 /* FaithNote */ = {
+			isa = PBXGroup;
+			children = (
+				6DE45C211EBE112B00562631 /* Main.storyboard */,
+				6DE45C1D1EBE112B00562631 /* AppDelegate.swift */,
+				6D3062841EEC284100B828A9 /* main */,
+				6D3062851EEC287400B828A9 /* write */,
+				6DEBDDD51EEE90BA003677BA /* image */,
+				6DE45C261EBE112C00562631 /* LaunchScreen.storyboard */,
+				6DE45C241EBE112B00562631 /* Assets.xcassets */,
+				6DE45C291EBE112C00562631 /* Info.plist */,
+				6D3062881EEC289D00B828A9 /* supporting File */,
+			);
+			path = FaithNote;
+			sourceTree = "<group>";
+		};
+		6DEBDDD51EEE90BA003677BA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6D2753E11EFED98200A0D13C /* writeImageView.swift */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		7412588C8BC1C031725DC468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AECA19344A9A4728D9C34D69 /* Pods_FaithNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9815D157E060128A2D635C25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D77BA2E6132D6A253CE33EA /* Pods-FaithNote.debug.xcconfig */,
+				4D66444DE54CA0D1E788B4D0 /* Pods-FaithNote.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DE45C191EBE112B00562631 /* FaithNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DE45C2C1EBE112C00562631 /* Build configuration list for PBXNativeTarget "FaithNote" */;
+			buildPhases = (
+				2B8CFDB58CE5D445D463BEEE /* [CP] Check Pods Manifest.lock */,
+				6DE45C161EBE112B00562631 /* Sources */,
+				6DE45C171EBE112B00562631 /* Frameworks */,
+				6DE45C181EBE112B00562631 /* Resources */,
+				7464E9EE0B085F03BE146501 /* [CP] Embed Pods Frameworks */,
+				1F47DE47A82F15D2193BD527 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaithNote;
+			productName = FaithNote;
+			productReference = 6DE45C1A1EBE112B00562631 /* FaithNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DE45C121EBE112B00562631 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Carus;
+				TargetAttributes = {
+					6DE45C191EBE112B00562631 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7P997RE9X4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6DE45C151EBE112B00562631 /* Build configuration list for PBXProject "FaithNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DE45C111EBE112B00562631;
+			productRefGroup = 6DE45C1B1EBE112B00562631 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DE45C191EBE112B00562631 /* FaithNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DE45C181EBE112B00562631 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE45C281EBE112C00562631 /* LaunchScreen.storyboard in Resources */,
+				6DE45C251EBE112B00562631 /* Assets.xcassets in Resources */,
+				6DE45C231EBE112B00562631 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F47DE47A82F15D2193BD527 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaithNote/Pods-FaithNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B8CFDB58CE5D445D463BEEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7464E9EE0B085F03BE146501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaithNote/Pods-FaithNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DE45C161EBE112B00562631 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2F53561EBEB3C400C8FB3F /* writeView.swift in Sources */,
+				6D2753E21EFED98200A0D13C /* writeImageView.swift in Sources */,
+				6DEBDDD21EEE8674003677BA /* backupFile.swift in Sources */,
+				6D2753E61F00F37200A0D13C /* Function Save.swift in Sources */,
+				6D1614A21F01557B00B8DA49 /* writeViewBackup_oranized.swift in Sources */,
+				6DE45C201EBE112B00562631 /* mainLogo.swift in Sources */,
+				6DE45C1E1EBE112B00562631 /* AppDelegate.swift in Sources */,
+				6D3062871EEC289800B828A9 /* supporting File.swift in Sources */,
+				6DE45C341EBE167F00562631 /* mainView.swift in Sources */,
+				6D2753D71EF9116D00A0D13C /* mainCell.swift in Sources */,
+				6D2753D91EF9123600A0D13C /* writeCell.swift in Sources */,
+				6D2753E41F00F0D300A0D13C /* writeViewBackUP_beforeChangeUIImageArray.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DE45C211EBE112B00562631 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DE45C221EBE112B00562631 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DE45C261EBE112C00562631 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DE45C271EBE112C00562631 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DE45C2A1EBE112C00562631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DE45C2B1EBE112C00562631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DE45C2D1EBE112C00562631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D77BA2E6132D6A253CE33EA /* Pods-FaithNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7P997RE9X4;
+				INFOPLIST_FILE = FaithNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carus.FaithNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6DE45C2E1EBE112C00562631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D66444DE54CA0D1E788B4D0 /* Pods-FaithNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7P997RE9X4;
+				INFOPLIST_FILE = FaithNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carus.FaithNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DE45C151EBE112B00562631 /* Build configuration list for PBXProject "FaithNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE45C2A1EBE112C00562631 /* Debug */,
+				6DE45C2B1EBE112C00562631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DE45C2C1EBE112C00562631 /* Build configuration list for PBXNativeTarget "FaithNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE45C2D1EBE112C00562631 /* Debug */,
+				6DE45C2E1EBE112C00562631 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DE45C121EBE112B00562631 /* Project object */;
+}

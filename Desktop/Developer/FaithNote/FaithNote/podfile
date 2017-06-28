@@ -1,0 +1,2 @@
+pod 'DCKit', :git => 'https://github.com/agordeev/DCKit.git'
+use_frameworks!

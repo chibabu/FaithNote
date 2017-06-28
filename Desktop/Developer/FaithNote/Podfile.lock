@@ -1,0 +1,37 @@
+PODS:
+  - DCKit (1.0.7)
+  - ELCImagePickerController (0.2.0)
+  - Realm (2.8.0):
+    - Realm/Headers (= 2.8.0)
+  - Realm/Headers (2.8.0)
+  - RealmSwift (2.8.0):
+    - Realm (= 2.8.0)
+
+DEPENDENCIES:
+  - DCKit (from `https://github.com/agordeev/DCKit.git`)
+  - ELCImagePickerController (from `https://github.com/B-Sides/ELCImagePickerController.git`)
+  - RealmSwift
+
+EXTERNAL SOURCES:
+  DCKit:
+    :git: https://github.com/agordeev/DCKit.git
+  ELCImagePickerController:
+    :git: https://github.com/B-Sides/ELCImagePickerController.git
+
+CHECKOUT OPTIONS:
+  DCKit:
+    :commit: ce354f9c5db6926114fa23c98700fe34f1cc00fb
+    :git: https://github.com/agordeev/DCKit.git
+  ELCImagePickerController:
+    :commit: a96964e7ab9d2bfc3cefe48038985ba4db8adf47
+    :git: https://github.com/B-Sides/ELCImagePickerController.git
+
+SPEC CHECKSUMS:
+  DCKit: 6eaa3808daa8efa663522aa16406e46415c68a94
+  ELCImagePickerController: b1b7084434a7d49f2cfc916bde1f3ba353d38de9
+  Realm: 929243ad2b618b3232e70658bedc61110e7563f1
+  RealmSwift: 5b7079b891f2833d1849294161ba3e092bbda3f6
+
+PODFILE CHECKSUM: 5ea0755201dd5a9157cb0700415444eb67d7abc8
+
+COCOAPODS: 1.2.1
