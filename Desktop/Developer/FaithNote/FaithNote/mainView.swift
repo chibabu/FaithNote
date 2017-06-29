@@ -108,6 +108,7 @@ class mainView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, 
                     {
 
 
+                
                         
 //                                try! realm.write {
 //                                    let mMemoContainer = fMemo()
@@ -526,27 +527,51 @@ class mainView: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, 
     }
     
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        memoNumber = indexPath.row
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        memoNumber = indexPath.row
 //        print("memoNumber :",memoNumber)
-        
-        arraySelect = UserDefaults.standard.object(forKey: "arraySelect") as? String ?? String()
-        
-        mMemoDataValue = UserDefaults.standard.object(forKey: "\(arraySelect)_Faith") as? [String] ?? [String]()
-        
-        if arrayCategory != [] && mMemoDataValue.count == 0 {
-            
-            UserDefaults.standard.set(-1, forKey: "memoNumber")
-            self.performSegue(withIdentifier: "toWriteView", sender: self)
-            
-        } else if mMemoDataValue.count == 0 {
-            print("보류 -> 클릭하면 폴더 생성하도록")
-        } else {
-            
-            UserDefaults.standard.set(memoNumber, forKey: "memoNumber")
-            self.performSegue(withIdentifier: "toWriteView", sender: self)
+//
+//        arraySelect = UserDefaults.standard.object(forKey: "arraySelect") as? String ?? String()
+//        
+//        mMemoDataValue = UserDefaults.standard.object(forKey: "\(arraySelect)_Faith") as? [String] ?? [String]()
+//        
+//        if arrayCategory != [] && mMemoDataValue.count == 0 {
+//            
+//            UserDefaults.standard.set(-1, forKey: "memoNumber")
+//            self.performSegue(withIdentifier: "toWriteView", sender: self)
+//            
+//        } else if mMemoDataValue.count == 0 {
+//            print("보류 -> 클릭하면 폴더 생성하도록")
+//        } else {
+//            UserDefaults.standard.set(memoNumber, forKey: "memoNumber")
+//            self.performSegue(withIdentifier: "toWriteView", sender: self)
+//        }
+//    }
+
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        //Check if there is a identifier for the segue, prevent from crashing/just in case.
+        //As segue.identifier is optional, everytime you unwrapped optional var, you should either use 'if let' or 'guard let'
+
+        if let segueIdentifier = segue.identifier {
+            // you can saftely use 'segueIdentifier' here now, coz is unwrapped and its not null
+            // you can perform several segues from one viewcontroller, add if else to handle different segueIdentifier
+            if segueIdentifier == "toWriteView" {
+
+                if let selectedRow = memoTableView.indexPathForSelectedRow?.row {
+                    let writeView = segue.destination as! writeView
+                    writeView.selectedMemoNumber = selectedRow
+                }else{
+                    // logically this line will never be reached
+                    print("you didnt selected a row")
+                }
+            }// else if segueIdentifier == ""
+        }else{
+            //if segue.identifier is null, handle the error
         }
     }
+
+
     //MARK: - TableView Declare ..end
     
     
