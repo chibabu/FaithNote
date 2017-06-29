@@ -43,7 +43,8 @@ class writeView: UIViewController, UIImagePickerControllerDelegate, UINavigation
         let elcImagePicker = ELCImagePickerController(imagePicker: ())
         
         
-        
+
+    internal var selectedMemoNumber = 0
         
         // Variable end
         
